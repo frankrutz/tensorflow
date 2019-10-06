@@ -20,7 +20,7 @@ https://www.python.org/
 Docker, to securely build, share and run modern applications anywhere
 https://www.docker.com/
 
-# WARNING current version does not run, to be fixed 6thoct 2019 evening
+# WARNING current version does not run, probably fixed, test currently ongonig 09oct2019 1512CEST
 
 # To be used as a ready-to-go training environment for
 https://www.udemy.com/course/deep-learning-grundlagen-neuronale-netzwerke-mit-tensorflow/
