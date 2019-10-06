@@ -65,7 +65,7 @@ Modern CPU (more than 8000 in https://www.cpubenchmark.net/laptop.html )
 Docker Desktop installed
 16 GB RAM
 
-# How to build the containe
+# How to build the container
 Instantiate a centos7 machine on a cloud provider
 
 sudo yum -y install docker
