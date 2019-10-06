@@ -15,7 +15,7 @@ Good working knowledge Docker, Tensorflow, Python
 to set up a new development environment in e.g. Google Cloud: 1.5 hours.
 
 # Example infrastructure
-This container is developed on Google Cloud Zurich
+This container is developed on Google Cloud Zurich (zone europe-west6-a)
 30 GB harddisk
 n1-standard-4 (4 vCPUs, 15 GB memory)
 
