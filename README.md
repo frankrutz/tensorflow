@@ -79,8 +79,7 @@ git clone https://github.com/frankrutz/tensowflow
 cd tensorflow
 docker build -t tensorflow -f dockerfile .
 
-Attention in the vnc directory delete the kill display , update follows
-
+Containersize is about 8.8 GB.
 
 # How to run the container
 docker run -d --rm --hostname tensorflow -p 5901:5901 --name tensorflow tensorflow /tensorflow/containerstarter.sh
