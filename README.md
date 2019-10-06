@@ -18,6 +18,9 @@ centOS based vnc container for tensorflow development
 * Docker, to build, share and run modern applications anywhere
 * https://www.docker.com/
 
+* Keras, the Python Deep Learning library
+* https://keras.io/
+
 # A ready-to-go training environment for
 
 https://www.udemy.com/course/deep-learning-grundlagen-neuronale-netzwerke-mit-tensorflow/
