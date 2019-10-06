@@ -26,8 +26,7 @@ RUN    chown -R tensorflow:users /tensorflow;\
 #######################################################################
 #VS Code see https://code.visualstudio.com/docs/setup/linux
 RUN rpm --import https://packages.microsoft.com/keys/microsoft.asc;\
-    sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/
-microsoft.asc" > /etc/yum.repos.d/vscode.repo';\
+    sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo';\
     yum install dnf code -y
 #######################################################################
 #python 3.x 
