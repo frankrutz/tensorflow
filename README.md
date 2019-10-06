@@ -1,8 +1,29 @@
-# Tensorflow  CentOS VNC Development Server
+# Tensorflow Server
 centOS based vnc machine for tensorflow development
+
+The Tensorflow Server is build on
+
+
+Tensorflow, an end-to-end open source machine learning platform
+https://www.tensorflow.org/
+
+Anaconda, the world's most popular data science platform
+https://www.anaconda.com/
+
+CentOS, a Linux Operating System
+https://centos.org/
+
+Python, a programming language that lets you work quickly
+and integrate systems more effectively:
+https://www.python.org/
+
+Docker, to securely build, share and run modern applications anywhere
+https://www.docker.com/
 
 # To be used as a ready-to-go training environment for
 https://www.udemy.com/course/deep-learning-grundlagen-neuronale-netzwerke-mit-tensorflow/
+
+
 
 
 # Status: Under Construction.
