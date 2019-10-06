@@ -33,7 +33,8 @@ Basic linux-commandline knowledge
 
 Need to know how to set up a VNCViewer and how to connect it to a VNC server
 
-Good-to-know: Operating Linux Servers @ your favorite Cloud provider
+Good-to-know: Operating Linux Servers @ your favorite Cloud provider. 
+But you can do all this on your local Windows 10 Pro, Docker-enabled Laptop as well.
 
 # Time needed 
 ## Building the container
