@@ -92,5 +92,5 @@ Containersize is about 8.8 GB.
 # How to run the container
 docker run -d --rm --hostname tensorflow -p 5901:5901 --name tensorflow tensorflow /tensorflow/containerstarter.sh
 
-# How to access the vncserver
+# How to access the container by vnc
 Using a VNC viewer, connect to port 5901. The standardpassword can be seen in the xstartup script.
