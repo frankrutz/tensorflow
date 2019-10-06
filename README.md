@@ -80,11 +80,11 @@ sudo systemctl start docker
 
 sudo systemctl reboot
 
-## clone the tensorflow repository
+## Clone the tensorflow repository
 
 git clone https://github.com/frankrutz/tensorflow
 
-## build the container - this will take 1.5 hours.
+## Build the container - this will take 1.5 hours.
 
 On the containerhost:
 
@@ -104,17 +104,17 @@ On the containerhost:
 
 docker volume create user-tensorflow
 
-## each time you run it
+## Starting the Tensorflowcontainer
 On the containerhost:
 
 docker run -d --rm --hostname tensorflow -v user-tensorflow:/home/tensorflow -p 5901:5901 --name tensorflow tensorflow /tensorflow/containerstarter.sh
 
 
-## How to access the container by vnc
+## Accessing the container by vnc
 
 Using a VNC viewer, connect to port 5901. The standardpassword can be seen in the xstartup script.
 
-## how to stop the container
+## Stopping the container
 On the containerhost:
 
 docker kill tensorflow
