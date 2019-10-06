@@ -12,15 +12,16 @@ centOS based vnc container for tensorflow development
 * CentOS, a Linux Operating System
 * https://centos.org/
 
-* Python, a programming language that lets you work quickly
-and integrate systems more effectively:
+* Python, lets you work quickly integrate systems more effectively
 * https://www.python.org/
 
-* Docker, to securely build, share and run modern applications anywhere
+* Docker, to build, share and run modern applications anywhere
 * https://www.docker.com/
 
 # A ready-to-go training environment for
+
 https://www.udemy.com/course/deep-learning-grundlagen-neuronale-netzwerke-mit-tensorflow/
+
 by Jan Schaffranek
 
 # Status: Under Construction.
@@ -90,7 +91,22 @@ docker build -t tensorflow -f dockerfile .
 Containersize is about 8.8 GB.
 
 # How to run the container
-docker run -d --rm --hostname tensorflow -p 5901:5901 --name tensorflow tensorflow /tensorflow/containerstarter.sh
 
-# How to access the container by vnc
+## First time you run it -create a persistent volume
+
+Create a docker volume (think of it as a persistent disk) for the user tensorflow
+
+docker volume create user-tensorflow
+
+## each time you run it
+
+docker run -d --rm --hostname tensorflow -v user-tensorflow:/home/tensorflow -p 5901:5901 --name tensorflow tensorflow /tensorflow/containerstarter.sh
+
+
+## How to access the container by vnc
+
 Using a VNC viewer, connect to port 5901. The standardpassword can be seen in the xstartup script.
+
+## how to stop the container
+
+docker kill tensorflow
