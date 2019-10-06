@@ -22,6 +22,7 @@ https://www.docker.com/
 
 # To be used as a ready-to-go training environment for
 https://www.udemy.com/course/deep-learning-grundlagen-neuronale-netzwerke-mit-tensorflow/
+by Jan Schaffranek
 
 # Status: Under Construction.
 first version: 6th oct 2019
