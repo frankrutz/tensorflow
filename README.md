@@ -49,16 +49,16 @@ approx. 10 seconds to have it running
 
 ## Development server:
 This container is developed on Google Cloud Zurich, zone europe-west6-a.
-Harddisk: 30 GB
+Harddisk: 40 GB
 CPU: n1-standard-4, Intel Skylake, 4 vCPUs, 15 GB memory.
 
 ## Recommended end user machines :: linux@cloud
-Any Linux Container host with docker installed, 30 GB harddisk, 16 GByte RAM.
+Any Linux Container host with docker installed, 40 GB harddisk, 16 GByte RAM.
 Minimum specs are probably lower, tests will follow.
 Port 5901 needs to be open vor VNC connections
 
 ## Recommended end user machines :: windows
-Windows 10 pro (Windows Home not sufficient)
+Windows 10 pro (Windows Home not sufficient) 40 GB Harddisk
 Modern CPU (more than 8000 in https://www.cpubenchmark.net/laptop.html )
 Docker Desktop installed
 16 GB RAM
