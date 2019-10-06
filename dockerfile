@@ -1,18 +1,16 @@
 FROM centos:7.6.1810
 MAINTAINER frank.potthast@gmail.com
-
 # WARNING EXPERIMENTAL 06oct2019
 # To be used together with the Tensorflow course
 # https://www.udemy.com/course/deep-learning-grundlagen-neuronale-netzwerke-mit-tensorflow/
-
-RUN    yum -y update;\
-       yum install -y epel-release;\
-       yum groupinstall -y "Server with GUI";\
-       yum groupinstall -y "MATE Desktop";\
-       yum install -y tigervnc-server;\
-       yum install -y x11vnc;\
-       yum groupinstall -y "X Window System";\
-       adduser tensorflow -d /home/tensorflow -s /bin/bash;\
+RUN    yum -y update
+RUN    yum install -y epel-release
+RUN    yum groupinstall -y "Server with GUI"
+RUN    yum groupinstall -y "MATE Desktop"
+RUN    yum install -y tigervnc-server
+RUN    yum install -y x11vnc;
+RUN    yum groupinstall -y "X Window System"
+RUN    adduser tensorflow -d /home/tensorflow -s /bin/bash;\
        usermod -g users tensorflow;\
        usermod -aG wheel tensorflow;\
        echo "changeme" | passwd --stdin tensorflow;\
@@ -28,7 +26,8 @@ RUN    chown -R tensorflow:users /tensorflow;\
 #######################################################################
 #VS Code see https://code.visualstudio.com/docs/setup/linux
 RUN rpm --import https://packages.microsoft.com/keys/microsoft.asc;\
-    sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/microsoft.asc" > /etc/yum.repos.d/vscode.repo';\
+    sh -c 'echo -e "[code]\nname=Visual Studio Code\nbaseurl=https://packages.microsoft.com/yumrepos/vscode\nenabled=1\ngpgcheck=1\ngpgkey=https://packages.microsoft.com/keys/
+microsoft.asc" > /etc/yum.repos.d/vscode.repo';\
     yum install dnf code -y
 #######################################################################
 #python 3.x 
