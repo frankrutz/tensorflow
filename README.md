@@ -92,7 +92,7 @@ cd tensorflow
 
 docker build -t tensorflow -f dockerfile .
 
-Containersize is about 8.8 GB.
+Containersize is about 9.8 GB.
 
 # How to run the container
 
