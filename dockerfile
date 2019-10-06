@@ -1,6 +1,7 @@
 FROM centos:7.6.1810
 MAINTAINER frank.potthast@gmail.com
 
+# WARNING EXPERIMENTAL 06oct2019
 # To be used together with the Tensorflow course
 # https://www.udemy.com/course/deep-learning-grundlagen-neuronale-netzwerke-mit-tensorflow/
 
