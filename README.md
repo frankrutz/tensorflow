@@ -114,6 +114,8 @@ docker run -d --rm --hostname tensorflow -v user-tensorflow:/home/tensorflow -p 
 
 Using a VNC viewer, connect to port 5901. The standardpassword can be seen in the xstartup script.
 
+Please set your vcnpassword by running the vncpasswd command.
+
 ## Stopping the container
 On the containerhost:
 
