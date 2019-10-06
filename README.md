@@ -1,8 +1,7 @@
 # Tensorflow Server
-centOS based vnc machine for tensorflow development
+centOS based vnc server for tensorflow development
 
 The Tensorflow Server is build on
-
 
 Tensorflow, an end-to-end open source machine learning platform
 https://www.tensorflow.org/
@@ -66,7 +65,7 @@ Docker Desktop installed
 16 GB RAM
 
 # How to build the container
-Instantiate a centos7 machine on a cloud provider
+Instantiate a centos7 machine (e.g. at a cloud provider)
 
 sudo yum -y install docker
 sudo systemctl enable docker.service
