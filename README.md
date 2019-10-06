@@ -65,7 +65,7 @@ Docker Desktop installed
 16 GB RAM
 
 # How to build the container
-Instantiate a centos7 machine (e.g. at a cloud provider)
+## Instantiate a centos7 machine (e.g. at a cloud provider)
 
 sudo yum -y install docker
 
@@ -79,7 +79,11 @@ sudo systemctl start docker
 
 sudo systemctl reboot
 
+## clone the tensorflow repository
+
 git clone https://github.com/frankrutz/tensorflow
+
+## build the container - this will take 1.5 hours.
 
 cd tensorflow
 
