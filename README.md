@@ -68,9 +68,13 @@ Docker Desktop installed
 Instantiate a centos7 machine (e.g. at a cloud provider)
 
 sudo yum -y install docker
+
 sudo systemctl enable docker.service
+
 sudo groupadd docker
+
 sudo usermod -aG docker $USER
+
 sudo systemctl start docker
 
 sudo systemctl reboot
@@ -78,6 +82,7 @@ sudo systemctl reboot
 git clone https://github.com/frankrutz/tensorflow
 
 cd tensorflow
+
 docker build -t tensorflow -f dockerfile .
 
 Containersize is about 8.8 GB.
