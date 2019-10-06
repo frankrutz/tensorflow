@@ -75,7 +75,7 @@ sudo systemctl start docker
 
 sudo systemctl reboot
 
-git clone https://github.com/frankrutz/tensowflow
+git clone https://github.com/frankrutz/tensorwflow
 cd tensorflow
 docker build -t tensorflow -f dockerfile .
 
