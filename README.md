@@ -1,7 +1,7 @@
-# Tensorflow Server
-centOS based vnc server for tensorflow development
+# Tensorflow Container
+centOS based vnc container for tensorflow development
 
-## The Tensorflow Server contains:
+## The Tensorflow Container consists of:
 
 * Tensorflow, an end-to-end open source machine learning platform
 * https://www.tensorflow.org/
