@@ -19,9 +19,7 @@ https://www.python.org/
 Docker, to securely build, share and run modern applications anywhere
 https://www.docker.com/
 
-# INFO :: Bug from 6th oct 2019 fixed
-
-# To be used as a ready-to-go training environment for
+# A ready-to-go training environment for
 https://www.udemy.com/course/deep-learning-grundlagen-neuronale-netzwerke-mit-tensorflow/
 by Jan Schaffranek
 
