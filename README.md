@@ -28,6 +28,9 @@ first version: 6th oct 2019
 
 # What you need to know:
 Basic knowledge how to build and run Docker containers
+Basic linux-commandline knowledge
+Need to know how to set up a VNCViewer and how to connect it to a VNC server
+Good-to-know: Operating Linux Servers @ your favorite Cloud provider
 
 # Time needed 
 ## Building the container
