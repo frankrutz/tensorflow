@@ -23,28 +23,32 @@ https://www.docker.com/
 # To be used as a ready-to-go training environment for
 https://www.udemy.com/course/deep-learning-grundlagen-neuronale-netzwerke-mit-tensorflow/
 
-
-
-
 # Status: Under Construction.
 first version: 6th oct 2019
 
 # What you need to know:
-Basic knowledge of to operate Docker containers
+Basic knowledge how to build and run Docker containers
 
 # Time needed 
-building the container: approx. 10 minutes command line to start, 1.5 wall-clock hours
+## Building the container
+You have to do this at least once.
+approx. 10 minutes command line to start, 1.5 wall-clock hours
 
-
-
+## Starting the container
+approx. 10 seconds to have it running
 
 # Example infrastructure
-This container is developed on Google Cloud Zurich (zone europe-west6-a)
-30 GB harddisk
-n1-standard-4 (4 vCPUs, 15 GB memory)
 
-You will certainly need less resources to run it,
-recommended minimum specifications will follow.
+## Development server:
+This container is developed on Google Cloud Zurich, zone europe-west6-a.
+Harddisk: 30 GB
+CPU: n1-standard-4, Intel Skylake, 4 vCPUs, 15 GB memory.
+
+## Recommended end user machine
+Windows 10 pro (Windows Home not sufficient)
+Modern CPU (more than 8000 in https://www.cpubenchmark.net/laptop.html )
+Docker Desktop installed
+16 GB RAM
 
 
 # How to build the container
