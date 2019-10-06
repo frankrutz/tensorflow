@@ -30,10 +30,13 @@ https://www.udemy.com/course/deep-learning-grundlagen-neuronale-netzwerke-mit-te
 first version: 6th oct 2019
 
 # What you need to know:
-Good working knowledge Docker, Tensorflow, Python
+Basic knowledge of to operate Docker containers
 
 # Time needed 
-to set up a new development environment in e.g. Google Cloud: 1.5 hours.
+building the container: approx. 10 minutes command line to start, 1.5 wall-clock hours
+
+
+
 
 # Example infrastructure
 This container is developed on Google Cloud Zurich (zone europe-west6-a)
@@ -55,6 +58,8 @@ sudo systemctl start docker
 
 sudo systemctl reboot
 
+git clone https://github.com/frankrutz/tensowflow
+cd tensorflow
 docker build -t tensorflow -f dockerfile .
 
 Attention in the vnc directory delete the kill display , update follows
