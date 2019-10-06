@@ -63,8 +63,10 @@ Modern CPU (more than 8000 in https://www.cpubenchmark.net/laptop.html )
 Docker Desktop installed
 16 GB RAM
 
-# How to build the container
+# How to build the containerhost
 ## Instantiate a centos7 machine (e.g. at a cloud provider)
+
+On the containerhost:
 
 sudo yum -y install docker
 
@@ -84,6 +86,8 @@ git clone https://github.com/frankrutz/tensorflow
 
 ## build the container - this will take 1.5 hours.
 
+On the containerhost:
+
 cd tensorflow
 
 docker build -t tensorflow -f dockerfile .
@@ -96,9 +100,12 @@ Containersize is about 8.8 GB.
 
 Create a docker volume (think of it as a persistent disk) for the user tensorflow
 
+On the containerhost:
+
 docker volume create user-tensorflow
 
 ## each time you run it
+On the containerhost:
 
 docker run -d --rm --hostname tensorflow -v user-tensorflow:/home/tensorflow -p 5901:5901 --name tensorflow tensorflow /tensorflow/containerstarter.sh
 
@@ -108,5 +115,6 @@ docker run -d --rm --hostname tensorflow -v user-tensorflow:/home/tensorflow -p 
 Using a VNC viewer, connect to port 5901. The standardpassword can be seen in the xstartup script.
 
 ## how to stop the container
+On the containerhost:
 
 docker kill tensorflow
