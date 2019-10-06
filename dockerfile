@@ -1,5 +1,9 @@
 FROM centos:7.6.1810
 MAINTAINER frank.potthast@gmail.com
+
+# To be used together with the Tensorflow course
+# https://www.udemy.com/course/deep-learning-grundlagen-neuronale-netzwerke-mit-tensorflow/
+
 RUN    yum -y update;\
        yum install -y epel-release;\
        yum groupinstall -y "Server with GUI";\
